@@ -170,10 +170,11 @@ def user_stats(df):
 
     # displays the earliest, most recent, and most common year of birth   
     try:
+        earliest =int(df["Birth Year"].min())
+        most_recent= int(df["Birth Year"].max())
+        most_common= int(df["Birth Year"].mode()[0])
         print("\nThe earliest, most recent and most common birth years are:")
-        print("Earliest ",int(df["Birth Year"].min()))
-        print("Most recent ",int(df["Birth Year"].max()))
-        print("Most common ", int(df["Birth Year"].mode()[0]))
+        print("Earliest: {0} \n Most Recent: {0}\n Most Common: {1}\n ".format(earliest,most_recent,most_common))
     except:
         print("No Birth Years can be evaluated")
 
