@@ -197,7 +197,7 @@ def main():
             print_df = input('\nWould you like to see values from the dataframe?\nEnter yes or no.\n')
             
             if print_df.lower() != 'yes':
-                raise Exception("No valid input")
+                break
             else:
                 print(df.iloc[i:i+5])
                 i= i+5
