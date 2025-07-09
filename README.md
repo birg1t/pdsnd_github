@@ -23,7 +23,7 @@ Python script:
 ### Steps
 **To run the code the following steps are needed:**
 
-Please download the files from sectrion **Files used**
+Please download the files from section **Files used**
 
 .csv files and .py script need to be in the same working directory
 
