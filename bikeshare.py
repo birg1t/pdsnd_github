@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import datetime
 
+""" Reads Data from .csv files into a dictionary and creates lists for month and day data"""
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
