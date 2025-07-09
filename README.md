@@ -6,7 +6,10 @@ Monday, 7.7.2025
 Exploring US Bikeshare Data
 
 ### Description
-This code reads in bikeshare data from three large .csv datasets. The aim is to provide statistics on the dataset and to give the user an interactive experience in discovering the data.
+This code reads in bikeshare data from three large .csv datasets. 
+The .csv files contain data from the three US Cities Chicago, New York City and Washington.
+The aim is to provide descriptive statistics on the datasets and to give the user an interactive experience in discovering the data.
+
 
 ### Files used
 The files used for this project are provided by Udacity:
