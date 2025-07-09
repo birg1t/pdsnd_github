@@ -29,6 +29,8 @@ Please download the files from section **Files used**
 
 Python packages that need to be included to run the code are **pandas** and **numpy**
 
+To make sure the code works correctly,Python 3 should be installed as well as a text editor like Sublime or Visual Studio Code
+
 ### Credits
 
 The basic version of this repo was forked from: https://github.com/udacity/pdsnd_github
