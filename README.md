@@ -30,3 +30,6 @@ Python packages that need to be included to run the code are **pandas** and **nu
 
 The basic version of this repo was forked from: https://github.com/udacity/pdsnd_github
 
+### License
+
+The source code for this project is released under the MIT License
